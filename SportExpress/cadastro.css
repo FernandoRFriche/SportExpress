@@ -1,0 +1,206 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: rgb(235, 235, 235);
+}
+*{
+    font-family: 'Ruda', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+#inf{
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: 30px;
+}
+#cabeca{
+    list-style: none;
+    margin-left: 12%;
+    font-family: 'Ruda', sans-serif;
+    font-size: 16px;
+}
+.duvida{
+    height: 20px;
+    margin-left: 60%;
+    padding-top: 0.2%;
+}
+#dvd{
+    font-family: 'Ruda', sans-serif;
+    font-size: 16px;
+    margin-left: 10px;
+    fill: white;
+}
+#menu{
+    color: black;
+    background-color: rgb(29, 173, 212);
+    width: 100%;
+    height: 100px;
+}
+#titulo{
+    font-family: 'Ruda', sans-serif;
+    margin-left: 8%;
+    color: white;
+    font-size: 34px;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    font-weight: 300;
+    margin-top: 0.1%;
+}
+#pesquisa{
+    margin-left: 28%;
+    width: 30%;
+    border-radius: 10px;
+    height: 40px;
+    border-color: white;
+    border-top-color: white;
+    margin-top: -6%;
+    text-align: left;
+}
+#bpesquisa{
+    margin-top: -1%;
+}
+#submenu{
+    padding-top: 2%;
+    font-family: 'Ruda', sans-serif;
+}
+#contato{
+    color: white;
+    font-family: 'Ruda', sans-serif;
+    margin-left: 73%;
+    align-items: center;
+    margin-top: -2%;
+    font-size: 20px;
+}
+#contato2{
+    color: white;
+    margin-left: 2%;
+}
+#cadastro{
+    color: white;
+    font-family: 'Ruda', sans-serif;
+    margin-left: 83%;
+    align-items: center;
+    margin-top: -1.3%;
+    font-size: 20px; 
+}
+#cadastro2{
+    color: white;
+    margin-left: 2%;
+}
+#compra{
+    color: white;
+    font-family: 'Ruda', sans-serif;
+    margin-left: 90%;
+    align-items: center;
+    margin-top: -1.2%;
+    font-size: 20px; 
+}
+#compra2{
+    color: white;
+    margin-left: 2%;
+}
+nav{
+    margin-left: 63%;
+    margin-top: -2%;
+}
+nav li{
+    display: inline-block;
+    position: relative;
+    
+}
+nav li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 20px
+    
+}
+
+.dropdown-menu{
+    position: absolute;
+    box-shadow: 0 0 2px black;
+  
+    display: none;
+  
+    
+}
+.dropdown-menu a{
+    display: block;
+    color: black;
+}
+.dropdown:hover .dropdown-menu{
+    z-index: 99;
+    background-color: white;
+    display: block;
+   
+}
+#quadbranco{
+    width: 30%;
+    height: 78vh;
+    margin-left: 35%;
+    margin-top: 5%;
+    background-color: rgb(209, 209, 209);
+    border-radius: 20px;
+}
+#logo{
+    margin-left: 32%;
+}
+#txtlogin{
+    font-size: 24px;
+    margin-left: -2%;
+    text-align: center;
+    margin-top: -2%;
+}
+#email{
+    box-shadow: 0 0 2px black;
+    height: 50px;
+    margin-left: 20%;
+    margin-top: 6%;
+    width: 60%;
+    border-radius: 20px;
+}
+#senha{
+    box-shadow: 0 0 2px black;
+    height: 50px;
+    margin-left: 20%;
+    margin-top: 6%;
+    width: 60%;
+    border-radius: 20px;
+}
+#check{
+    box-shadow: 0 0 2px black;
+    margin-left: 20%;
+    margin-top: 6%;
+}
+#lembrar{
+    margin-left: 2%;
+}
+#esqueceu{
+    margin-left: 20%;
+    color: black;
+}
+#conta{
+    height: 50px;
+    width: 60%;
+    color: black;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+#conta:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+#volta{
+    margin-left: 30%;
+    margin-top: 25%;
+}
+#voltar{
+    color: black;
+}
